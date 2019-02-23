@@ -1,0 +1,45 @@
+.modal {
+  background-color: aquamarine;
+  border: 2px solid #000;
+  border-radius: 5px;
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  min-height: 400px;
+  padding: 10px;
+  box-shadow: 2px 1px 1px;
+  span {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+}
+.modal-header {
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  textarea {
+    margin: 8px 0;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    width: 100px;
+    background: rgb(45, 81, 243);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 12px;
+    border: 1px solid #000;
+    opacity: .9;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

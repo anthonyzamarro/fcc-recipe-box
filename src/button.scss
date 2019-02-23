@@ -1,0 +1,44 @@
+.btn-container {
+  text-align: left;
+  margin-left: 12px;
+}
+.btn {
+  border: 1px solid #000;
+  color: ghostwhite;
+  padding: 5px 24px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.btn-add {
+  width: 200px;
+  padding: 12px;
+  background: limegreen;
+  font-size: 13px;
+  margin: 6px;
+}
+.btn-edit {
+  background: limegreen;
+}
+.btn-delete {
+  background-color: tomato;
+  margin: 8px;
+}
+.btn:focus {
+  outline: none;
+}
+.btn-sidebar {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: honeydew;
+  cursor: pointer;
+  padding: 8px 0;
+}
+.btn-sidebar:hover {
+  text-decoration: underline;
+}
+.btn:hover {
+  opacity: 1;
+}

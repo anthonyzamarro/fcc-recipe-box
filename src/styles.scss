@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(#ec6f66, #f3a183);
+  min-height: 400px;
+}
+header {
+  padding: 12px;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+  max-width: 1200px;
+  margin: auto;
+}
+.sidebar-container {
+  flex: 2;
+}
+.instructions-container {
+  flex: 2 0 200px;
+  text-align: left;
+}
+h1 {
+  padding: 4px 0;
+  margin: 4px 0;
+}
+h3 {
+  text-align: left;
+  padding: 4px 0;
+  margin: 4px 0;
+}
