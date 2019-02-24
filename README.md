@@ -2,7 +2,7 @@
 
   This project is a part of the [FreeCodeCamp](https://www.freecodecamp.com) take out projects.
 
-  You can view my finished work [here](https://anthonyzamarro.github.io/fcc-calculator).
+  You can view my finished work [here](https://fcc--recipe-box.herokuapp.com/).
 
 ## How to use
 
