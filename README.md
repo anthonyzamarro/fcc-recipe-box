@@ -6,7 +6,8 @@
 
 ## How to use
 
-  Click on the numbers and operators to perform a mathematical operation. You may also use your keyboard.
+Check out one of the recipes in the list or add your own by clicking the add button.
+If you want to edit or delete a recipe, click on the recipe name in the list and click the edit or delete button.
 
 ## Technologies Used
 
